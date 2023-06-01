@@ -6,13 +6,13 @@ import MassageError from './MassageError';
 function LocationChecker() {
     const [location, setLocation] = useState({latitude:'',longitude:''});
   
-  const Clat =   28.6325348;            //college ka location Latitude: 28.6325348
-  // Longitude: 
-  const Clongi = 77.4357627;
+    const Clat =   28.6343197;            //college ka location Latitude: 28.6325348
+    // Longitude: 
+    const Clongi = 77.4457013;
   // const Clat = 28.5099937;            //flat ka location
   // const Clongi = 77.2354845;
-  const maxlat =   28.6342852;
-  const maxLongi = 77.4455274;
+  const maxlat =   28.634337;
+  const maxLongi = 77.445570;
   const distance = Math.sqrt(Math.pow((maxlat - Clat), 2) + Math.pow((maxLongi - Clongi), 2));
   
   
